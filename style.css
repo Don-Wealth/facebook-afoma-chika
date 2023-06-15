@@ -3,38 +3,45 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-  margin: 150px 300px;
+  margin: 150px auto;
   display: flex;
-  gap: 20px;
+  gap: 50px;
+  width: 70%;
 }
 .left-section {
   text-align: start;
-  width: 50%;
+  width: 55%;
 }
 
 .right-section {
-  width: 50%;
+  width: 45%;
 }
 .left-sectionText {
-  font-size: 25px;
+  font-size: 26px;
   margin-top: -30px;
 }
 .logo {
-  width: 400px;
+  width: 340px;
   margin-left: -45px;
 }
 .card {
   background-color: white;
-  padding: 20px;
+  padding: 20px 5px;
   text-align: center;
   border-radius: 10px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
 }
 .inputlogin {
-  border: gray 1px solid;
+  border: rgb(230, 230, 230) 1px solid;
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
   width: 90%;
+  height: 30px;
+}
+.inputlogin:focus {
+  border: 1px solid #1B74E4;
+  outline: #1B74E4;
 }
 .btn-blue {
   background-color: #1877f2;
@@ -42,7 +49,86 @@ body {
   font-weight: bold;
   text-align: center;
   width: 95%;
+  height: 45px;
   padding: 10px;
   border: none;
   border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+a {
+  text-decoration: none;
+
+}
+#forgotPass a {
+  color: #1877F2;
+  font-size: 15px;
+}
+#forgotPass a:hover {
+  text-decoration: underline;
+}
+hr {
+  color: rgb(230, 230, 230);
+  margin-top: 0px;
+  width: 350px;
+  border: 1px solid rgb(230, 230, 230);
+}
+#create-btn {
+  background-color: #36A420;
+  padding: 17px;
+  width: fit-content;
+  margin: auto;
+  border-radius: 7px;
+  font-weight: bold;
+}
+#create-btn a {
+  color: #ffffff;
+}
+#celebrityBrand {
+  color: #1C1E21;
+  font-size: 14px;
+  text-align: center;
+}
+#celebrityBrand a {
+  color: #1C1E21;
+}
+#celebrityBrand a:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: white;
+  color: #aeafb1;
+  padding: 20px 50px;
+  font-size: 12px;
+}
+footer p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+footer hr {
+  width: 100%;
+  margin: 10px auto;
+}
+.footer-container {
+  margin: auto;
+  width: 70%;
+  word-spacing: 4px;
+  line-height: 19px;
+}
+
+footer button {
+  width: 30px;
+  font-weight: bolder;
+  font-size: 14px;
+  background-color: #E5E5E5;
+  border: 1px solid #a5a5a5;
+  color: #8b8a8a;
+}
+footer small {
+  display: block;
+  color: #737373;
+  font-size: 11px;
+  font-weight: 400;
+  word-spacing: 0px;
+  margin-top: 20px;
 }
